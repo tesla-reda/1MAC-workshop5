@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  background-color: #fff;
+}
+header {
+   width: 100%;
+   background-color: lightgray;
+   text-align: center;
+   border-bottom: 1px solid gray;
+}
+ header h1 {
+   margin: 0;
+   padding: 10px;
+   letter-spacing: 2px;
+   word-spacing: 5px;
+ }
+header hr {
+   width: 40%;
+   height: 2px;
+   border: 0;
+   border-bottom: 2px dotted gray;
+}
+ header img {
+   width: 60px;
+   height: 60px;
+ }
+ main {
+   display: flex;
+   flex-direction: column;
+ }
+.section {
+  box-sizing: border-box;
+  background-color: #F2F3F5;
+  border-radius: 10px;
+  border: 2px solid gray;
+  margin: 10px;
+  padding:10px;
+}
+.section1, .section2 {
+  flex: 50%;
+}
+h1 {
+  text-align: center;
+  padding: 0;
+  margin: 5px;
+}
+h2 {
+  padding: 0;
+  margin: 5px;
+  font-size: 20px;
+  color: gray;
+}
+p {
+  margin: 5px;
+}
+.div {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.pic {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
+.pic1, .pic3, .pic4, .pic6  {
+  float: right;
+}
+.pic2, .pic5 {
+  float: left;
+}
+
+.section1 p, .section2 p {
+  text-align: justify;
+}
